@@ -1,0 +1,7 @@
+<launch>
+  <group ns="lidar">
+    <node pkg="LMS1xx" type="LMS100" name="lidar">
+      <param name="host" value="192.168.0.1" />
+    </node>
+  </group>
+</launch>
